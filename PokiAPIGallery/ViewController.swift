@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     
     var pokeImagesData = [UIImage]()
     
+    //activity indicator
+    
+    var loaderView : UIView?
+    
     //margin for colllection view
     
     let margin: CGFloat = 10
@@ -34,13 +38,41 @@ class ViewController: UIViewController {
         pokeimageCollectionView.delegate = self
         pokeimageCollectionView.dataSource = self
         //load images fom api
+        self.showSpinner(onView: self.view)
         PokeAPIHelper.fetchAllImages { images in
+            self.removeSpinner()
             self.pokeImagesData = images
             self.pokeimageCollectionView.reloadData()
            // self.pokeimage.image = images.first!
         }
     }
-
+    
+    
+    //MARK: CUSTOM FUNCTION TO SHOW LOADER WHILLE FETCHING IMAGES
+    
+    func showSpinner(onView : UIView) {
+        //ACTIVITY INDICATOR VIEW
+        let spinnerView = UIView.init(frame: onView.bounds)
+        spinnerView.backgroundColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
+        //ACTIVITY INDICATOR
+        let ai = UIActivityIndicatorView.init(style: .large)
+        ai.startAnimating()
+        ai.center = spinnerView.center
+        
+        DispatchQueue.main.async {
+            spinnerView.addSubview(ai)
+            onView.addSubview(spinnerView)
+        }
+        
+        loaderView = spinnerView
+    }
+    
+    func removeSpinner() {
+        DispatchQueue.main.async {
+            self.loaderView?.removeFromSuperview()
+            self.loaderView = nil
+        }
+    }
 
 }
 //MARK: COLLECTION VIEW DELEGATE DATASOURCE AND FLOW LAYOUT
