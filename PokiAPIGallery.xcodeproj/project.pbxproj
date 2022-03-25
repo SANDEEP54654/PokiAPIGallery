@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84D2F8DE27ED50CB0031F821 /* PokeImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2F8DD27ED50CB0031F821 /* PokeImagesCollectionViewCell.swift */; };
-		84D2F8E027ED51020031F821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D2F8DF27ED51020031F821 /* Main.storyboard */; };
+		840CBFA827EC8BFD0077E57E /* PokeImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CBFA727EC8BFD0077E57E /* PokeImagesCollectionViewCell.swift */; };
 		DBD9B69227E9652B00BBC9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B69127E9652B00BBC9E0 /* AppDelegate.swift */; };
 		DBD9B69427E9652B00BBC9E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B69327E9652B00BBC9E0 /* SceneDelegate.swift */; };
 		DBD9B69627E9652B00BBC9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B69527E9652B00BBC9E0 /* ViewController.swift */; };
+		DBD9B69927E9652B00BBC9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD9B69727E9652B00BBC9E0 /* Main.storyboard */; };
 		DBD9B69B27E9652B00BBC9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD9B69A27E9652B00BBC9E0 /* Assets.xcassets */; };
 		DBD9B69E27E9652B00BBC9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD9B69C27E9652B00BBC9E0 /* LaunchScreen.storyboard */; };
 		DBD9B6A627E9654E00BBC9E0 /* PokeAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B6A527E9654E00BBC9E0 /* PokeAPIHelper.swift */; };
@@ -19,12 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84D2F8DD27ED50CB0031F821 /* PokeImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeImagesCollectionViewCell.swift; sourceTree = "<group>"; };
-		84D2F8DF27ED51020031F821 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		840CBFA727EC8BFD0077E57E /* PokeImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		DBD9B68E27E9652B00BBC9E0 /* PokiAPIGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokiAPIGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD9B69127E9652B00BBC9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD9B69327E9652B00BBC9E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DBD9B69527E9652B00BBC9E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD9B69827E9652B00BBC9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD9B69A27E9652B00BBC9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD9B69D27E9652B00BBC9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBD9B69F27E9652B00BBC9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,13 +62,13 @@
 		DBD9B69027E9652B00BBC9E0 /* PokiAPIGallery */ = {
 			isa = PBXGroup;
 			children = (
-				84D2F8DD27ED50CB0031F821 /* PokeImagesCollectionViewCell.swift */,
+				840CBFA727EC8BFD0077E57E /* PokeImagesCollectionViewCell.swift */,
 				DBD9B69127E9652B00BBC9E0 /* AppDelegate.swift */,
 				DBD9B69327E9652B00BBC9E0 /* SceneDelegate.swift */,
 				DBD9B69527E9652B00BBC9E0 /* ViewController.swift */,
 				DBD9B6A527E9654E00BBC9E0 /* PokeAPIHelper.swift */,
 				DBD9B6A727E9657600BBC9E0 /* PokeImage.swift */,
-				84D2F8DF27ED51020031F821 /* Main.storyboard */,
+				DBD9B69727E9652B00BBC9E0 /* Main.storyboard */,
 				DBD9B69A27E9652B00BBC9E0 /* Assets.xcassets */,
 				DBD9B69C27E9652B00BBC9E0 /* LaunchScreen.storyboard */,
 				DBD9B69F27E9652B00BBC9E0 /* Info.plist */,
@@ -134,9 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D2F8E027ED51020031F821 /* Main.storyboard in Resources */,
 				DBD9B69E27E9652B00BBC9E0 /* LaunchScreen.storyboard in Resources */,
 				DBD9B69B27E9652B00BBC9E0 /* Assets.xcassets in Resources */,
+				DBD9B69927E9652B00BBC9E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,13 +152,21 @@
 				DBD9B69227E9652B00BBC9E0 /* AppDelegate.swift in Sources */,
 				DBD9B69427E9652B00BBC9E0 /* SceneDelegate.swift in Sources */,
 				DBD9B6A627E9654E00BBC9E0 /* PokeAPIHelper.swift in Sources */,
-				84D2F8DE27ED50CB0031F821 /* PokeImagesCollectionViewCell.swift in Sources */,
+				840CBFA827EC8BFD0077E57E /* PokeImagesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		DBD9B69727E9652B00BBC9E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD9B69827E9652B00BBC9E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		DBD9B69C27E9652B00BBC9E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,8 +299,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A5G6R6AWL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokiAPIGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -307,6 +317,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jv658.PokiAPIGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,8 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A5G6R6AWL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokiAPIGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -334,6 +347,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jv658.PokiAPIGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
